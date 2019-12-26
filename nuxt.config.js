@@ -4,7 +4,7 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/fonces/ghp-test/'
+          base: '/ghp-test/'
         }
       }
     : {}
